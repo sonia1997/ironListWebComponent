@@ -1,0 +1,25 @@
+{
+  "description": "Displays a virtual, 'infinite' scrolling list of items",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "list",
+    "virtual-list"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/iron-list"
+  },
+  "homepage": "https://github.com/PolymerElements/iron-list",
+  "name": "@polymer/iron-list",
+  "license": "BSD-3-Clause",
+  "version": "3.0.2",
+  "main": "iron-list.js",
+  "author": "The Polymer Authors",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "@polymer/iron-resizable-behavior": "^3.0.0-pre.26",
+    "@polymer/iron-a11y-keys-behavior": "^3.0.0-pre.26",
+    "@polymer/iron-scroll-target-behavior": "^3.0.0-pre.26"
+  }
+}
