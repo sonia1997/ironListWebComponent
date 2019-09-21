@@ -8,12 +8,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-list"
+    "url": "git://github.com/PolymerElements/iron-list.git"
   },
   "homepage": "https://github.com/PolymerElements/iron-list",
-  "name": "@polymer/iron-list",
+  "name": "ironlist",
   "license": "BSD-3-Clause",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "main": "iron-list.js",
   "author": "The Polymer Authors",
   "dependencies": {
@@ -21,5 +21,12 @@
     "@polymer/iron-resizable-behavior": "^3.0.0-pre.26",
     "@polymer/iron-a11y-keys-behavior": "^3.0.0-pre.26",
     "@polymer/iron-scroll-target-behavior": "^3.0.0-pre.26"
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerElements/iron-list/issues"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
