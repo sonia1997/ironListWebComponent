@@ -11,9 +11,9 @@
     "url": "git://github.com/PolymerElements/iron-list.git"
   },
   "homepage": "https://github.com/PolymerElements/iron-list",
-  "name": "ironlist",
+  "name": "ratinglsit",
   "license": "BSD-3-Clause",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "main": "iron-list.js",
   "author": "The Polymer Authors",
   "dependencies": {
