@@ -3,7 +3,7 @@ import { PolymerElement, html } from "https://unpkg.com/@polymer/polymer@^3.0.0-
 import '@polymer/iron-list/iron-list.js';
 import '@polymer/polymer/lib/elements/dom-repeat.js';
 import '@polymer/iron-icon/iron-icon.js';
-// import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module'
+import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module'
 
 class RatingList extends PolymerElement {
 
