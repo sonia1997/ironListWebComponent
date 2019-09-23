@@ -6,7 +6,7 @@ import '@polymer/iron-icon/iron-icon.js';
 // import '@polymer/iron-icons/iron-icons.js';
 
 import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module'
-// import '@polymer/iron-list/iron-list.js';
+import '@polymer/iron-list/iron-list.js';
 import '../rating-list.js'
 
 class DemoElement extends PolymerElement {
@@ -17,13 +17,14 @@ class DemoElement extends PolymerElement {
 font-family: sans-serif;
 --icon-toggle-color: lightgrey;
 --icon-toggle-outline-color: black;
---icon-toggle-pressed-color: yellow;
+/* --icon-toggle-pressed-color: yellow; */
 }
     </style>
-
 <center>
+
        <h3>Sample rating bar web component</h3>
-       <rating-list toggle-icon="star"> </rating-list>
+       <rating-list> </rating-list>
+
 </center>
 
     `;
