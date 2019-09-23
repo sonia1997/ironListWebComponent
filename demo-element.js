@@ -1,12 +1,14 @@
-import { PolymerElement, html } from '@polymer/polymer';
-// import { PolymerElement, html } from "https://unpkg.com/@polymer/polymer@^3.0.0-pre.12/polymer-element.js?module";
-import '@polymer/iron-list/iron-list.js';
-import '@polymer/polymer/lib/elements/dom-repeat.js';
-import '@polymer/iron-icon/iron-icon.js';
-import '@polymer/iron-icons/iron-icons.js';
+// import { PolymerElement, html } from '@polymer/polymer';
+import { PolymerElement, html } from "https://unpkg.com/@polymer/polymer@^3.0.0-pre.12/polymer-element.js?module";
 
-// import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module'
-// import '@polymer/iron-list/iron-list.js';
+import '@polymer/iron-list/iron-list.js';
+// import '@polymer/polymer/lib/elements/dom-repeat.js';
+
+import '@polymer/iron-icon/iron-icon.js';
+
+// import '@polymer/iron-icons/iron-icons.js';
+import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module';
+
 import '../rating-list.js'
 
 class DemoElement extends PolymerElement {
